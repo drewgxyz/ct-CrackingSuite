@@ -1,2 +1,21 @@
 # ctSuite
 A set of zero-to-hero cracking tools!
+
+This has been built offline, or outside of GitHub, hence the singular commit.
+#information from tutorial.txt
+
+Welcome to ctSuite!
+Please find below the attached instructions on running this.
+By default, proxy-checker.py is disabled as it currently runs for a long time, due to it's single-threaded state.
+
+It can be manually run with 'python3 proxy-checker.py', or 'python proxy-checker.py' depending on your runtime enviroment.
+
+The GUI can be found in @\ctSuite-Frontend\bin\Debug\netcoreapp3.1\ctSuite-Frontend.exe
+It must remain in this location, as it's dependencies and code library is present here.
+
+For best results, you can run:
+manual-run.bat should give you the best results if you have GUI issues.
+
+Following this, and the required user input, if you let the scripts run and begin login checking, it should eventually come to completion at the login details:
+
+andrew:qwerty
